@@ -77,7 +77,6 @@ const makeSelection = (event) => {
             playAgainButton.style.display = 'block';
 
             let resetButtonStatus = window.getComputedStyle(resetButton).getPropertyValue('display');
-            console.log(resetButtonStatus);
 
             if (score !== 0 && resetButtonStatus == 'none') {
                 resetButton.style.display = 'block'; 
